@@ -14,6 +14,6 @@
 pyramid_nb = int(input("Enter a number : "))
 printing_lines = ""
 
-for i in range(pyramid_nb):
-    printing_lines += str(i+1) + " " # added one since it starts with Zero
+for i in range(1, pyramid_nb + 1): # added one since it starts with Zero
+    printing_lines += str(i) + " " 
     print(printing_lines)          
